@@ -28,3 +28,9 @@ IndentationError: unexpected indent
 ```
 
 This is because there should be no indent at `for` (line 2) and where `else` is (line 6)
+
+# 5:
+
+```py
+from dir2.foo import foo_class
+```
