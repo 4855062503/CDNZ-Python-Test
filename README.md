@@ -88,3 +88,22 @@ You can run the code:
 2. `pip install -r requirements.txt`
 3. `python3 eight.py`
 
+
+## 9:
+
+```py
+
+large_dict_list = [{"brand" : "Ferrari"}, {"brand" : "Lambo"}, {"brand" : "Ferrari"}]
+ferrari_list = []
+
+for car_dict in large_dict_list:
+    if car_dict["brand"] == "Ferrari":
+        ferrari_list.append(car_dict)
+
+```
+
+Here, assume the list `large_dict_list` is actually large. We iterate through each dict / hashmap and check if the keyed value (in this case the key is 'brand'), equals what we want then append it to our new list.
+
+If you want to see an example output of the above code:
+
+1. `python3 nine.py`
