@@ -29,8 +29,15 @@ IndentationError: unexpected indent
 
 This is because there should be no indent at `for` (line 2) and where `else` is (line 6)
 
-# 5:
-
+## 5:
+A)
 ```py
 from dir2.foo import foo_class
+```
+B)
+
+```py
+import sys 
+sys.path.append('..')
+from bar import bar_class
 ```
