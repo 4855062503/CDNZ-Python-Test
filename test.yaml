@@ -1,0 +1,12 @@
+casual_friends:
+  friend_1:
+    name: 'Joe'
+    address:
+      street: 'Boundary Rd'
+      Number: 66
+  friend_2:
+    name: 'Anne'
+    mobile: 0275550011
+    address:
+      street: 'County St'
+      Number: 31
