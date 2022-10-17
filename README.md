@@ -18,17 +18,12 @@ If the list needs to be mutable, i.e. you'd want to update it, it should be a li
 
 ## 4:
 
-There is incorrect indentation, so the output will be an error:
-
 ```sh
-  File "test.py", line 2
-    for d in data:
-    ^
-IndentationError: unexpected indent
+!
+!
+!
+it's a five
 ```
-
-This is because there should be no indent at `for` (line 2) and where `else` is (line 6)
-
 ## 5:
 A)
 ```py
