@@ -111,8 +111,10 @@ If you want to see an example output of the above code:
 ## 10.
 
 Bad Practise Report:
+
 Line 9 is redundant as the `dir` property has already been set
 Line 33 should probably be deleted instead of commented out
+Line 35 should not set a new variable in a `try` statement
 Line 36 does not specify the exception to except
-Line 49..52 could probably use elif
 [Enums](https://docs.python.org/3/library/enum.html) or variables should probably be used instead of 'left', 'right' etc as strings are easy to type wrong
+Line 51 could be `elif`
