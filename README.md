@@ -41,3 +41,7 @@ import sys
 sys.path.append('..')
 from bar import bar_class
 ```
+
+## 6:
+
+You may want to use the `ABC` module in Python if you have indentified an instance where an abstract class could be used. Such an example could be when you know several classes share properties, but have functions which should return different data.
